@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/birth1"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                />
+
+            <TextView
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/birth2"
+                />
+
+            <TextView
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/birth3"
+                />
+            <TextView
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/birth4"
+                />
+            <TextView
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/birth5"
+                />
+            <TextView
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/birth6"
+                />
+            <TextView
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/birth7"
+                />
+            <TextView
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/birth8"
+                />
+            <TextView
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/birth9"
+                />
+            <TextView
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/birth10"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

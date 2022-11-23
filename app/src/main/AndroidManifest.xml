@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.g7tech.passport">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".helper.AppController"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/icon_main"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activities.Splash"></activity>
+        <activity android:name=".Activities.Discalimer" />
+        <activity android:name=".Activities.terms_and_conditions" />
+        <activity android:name=".Activities.Privacy_policy" />
+        <activity android:name=".Activities.Refund_policy" />
+        <activity
+            android:name=".Activities.Dashboard"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.Fee_structure" />
+        <activity android:name=".Activities.Faqs" />
+        <activity android:name=".Activities.documents_required" />
+        <activity android:name=".Activities.Summary" />
+        <activity android:name=".Activities.Emergency_contact" />
+        <activity android:name=".Activities.other_details" />
+        <activity android:name=".Activities.residential_address" />
+        <activity android:name=".Activities.Family_details" />
+        <activity android:name=".Activities.Applicant_details" />
+        <activity android:name=".Activities.Service_required" />
+        <activity android:name=".Activities.address" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

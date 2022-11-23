@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/refund"
+
+            android:title="•	Refund Policy" />
+        <item
+            android:id="@+id/privacy"
+
+            android:title="•	Privacy Policy" />
+        <item
+            android:id="@+id/terms"
+
+            android:title="•	Terms and Conditions" />
+        <item
+            android:id="@+id/disclaimer"
+
+            android:title="•	Disclaimer" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/number"
+                android:title="CALL US" />
+            <item
+                android:id="@+id/email"
+                android:title="EMAIL US" />
+            <item
+                android:id="@+id/support"
+                android:title="SUPPORT" />
+
+        </menu>
+    </item>
+
+</menu>

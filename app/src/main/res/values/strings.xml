@@ -1,0 +1,327 @@
+<resources>
+    <string name="app_name">Passport Seva</string>
+    <string name="Applying_for">Select your passport type</string>
+    <string-array name="passport_type">
+        <item>----</item>
+        <item>Fresh Passport</item>
+        <item>Fresh + Tatkal Passport </item>
+        <item>Re-issue Passport</item>
+        <item>Re-issue + Tatkal Passport</item>
+    </string-array>
+    <string-array name="gender">
+        <item>----</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Trangender</item>
+    </string-array>
+    <string-array name="marital_status">
+        <item>----</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widow/Widower</item>
+        <item>Separated</item>
+    </string-array>
+    <string-array name="employment">
+        <item>----</item>
+        <item>Government</item>
+        <item>Homemaker</item>
+        <item>Private</item>
+        <item>PSU</item>
+        <item>Retired Private Services</item>
+        <item>Owners,Partners and Directors of Companies which are members od CIII, FICCI, ASSOCHAM</item>
+        <item>Not Employed</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="education">
+        <item>----</item>
+        <item>7th pass or less</item>
+        <item>Between 8th and 9th standard</item>
+        <item>10th pass and above</item>
+        <item>Graduation and above</item>
+    </string-array>
+    <string-array name="citizenship">
+        <item>----</item>
+        <item>Birth</item>
+        <item>Descent</item>
+        <item>Registration/Neutralization</item>
+    </string-array>
+    <string name="info">I, the holder of above mentioned Aadhaar Number , hereby give my consent to Passport Seva to obtain my Aadhaar Number,
+                        Name and Fingerprint/Iris for authentication with UIDAI. I have no objection using my identity and biometric information
+                        for validation with Aadhaar (CIDR) database only for the purpose of authentication.</string>
+    <string name="emergency">Emergency Contact Details Please fill up
+                             below details of your family or relative ones.
+                             It will be use for emergency.</string>
+
+    <string-array name="state">
+        <item>----</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujrat</item>
+        <item>Haryana</item>
+        <item>HimachalPradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Lakhshadweep</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>UttaraKhand</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bangal</item>
+    </string-array>
+    <string name="ques_1">1) Have you ever been charged with criminal proceedings or any arrest warrant/ summon pending before a court of India? *</string>
+    <string name="ques_2">2) Have you at any time during the period of 5 years immediately preceding the date of this application been convicted
+                             by a court in India for any criminal offence and sentenced to imprisonment for two years or more? *</string>
+    <string name="ques_3">3) Have you ever been refused or denied passport? *</string>
+    <string name="ques_4">4) Has your Passport ever been impounded or Revoked? *</string>
+    <string name="ques_5">5) Have you ever applied for/ been granted political asylum to/ by any foreign country? *</string>
+    <string name="ques_6">6) Have you ever returned to India on Emergency Certificate (EC) or were ever deported or repatriated? *</string>
+    <string name="ques_7">7) Have you ever held/hold any Identity Certificate? *</string>
+    <string name="ques_8">8) Have you ever applied for passport, but not issued? *</string>
+    <string name="ques_9">9) (Identity Certificate(IC) is normally issued to Tibetan/other stateless people residing in India)
+                             Details of Previous/Current Diplomatic/Official Passport *</string>
+
+    <string name="agreement">I owe allegiance to the sovereignty , unity and integrity of India, and have not voluntarily acquired citizenship
+                             or travel document of any other country. I have not lost, surrendered or been deprived of the citizenship of
+                             India and I affirm that the information given by me in this form and the enclosures is true and I solely
+                             responsible for its accuracy, and I am liable to be penalized or prosecuted if found otherwise. I am aware that
+                             under the Passport Act, 1967 it is a criminal offence to furnish any false information or to suppress any material
+                             information with a view to obtaining passport or travel document.</string>
+    <string name="note">Applicants are required to submit the proof of address of the present address only, irrespective of the date from
+                        which he/she has been residing at the given address. However, he/she is required to mention all the places of stay
+                        during previous one year (from the date of application filling) in the Passport application form.</string>
+
+    <!--NON_Ecr Strings-->
+
+    <string name="non_ecr">YOU SHOULD HAVE ANY ONE OF THE FOLLOWING DOCUMENTS AS A NON ECR PROOF FOR PASSPORT APPLICATION :</string>
+
+    <string name="non_ecr1">All Persons Having Educational Qualifications Of Matriculation And Above</string>
+    <string name="non_ecr2">Matriculation Or Higher Educational Pass Certificate</string>
+    <string name="non_ecr3">All Persons Above The Age Of 50 Years</string>
+    <string name="non_ecr4">Birth Certificate Issued By The Municipal Authority Or Any Office Authorized To Issue Birth And Death Certificate By The Registrar Of Births and Deaths OR</string>
+    <string name="non_ecr5">School Leaving Certificate / Secondary School Leaving Certificate/ Certificate Of Recognized Boards From The School Last Attended By The Applicant Or Any Other Recognized Educational Institution</string>
+    <string name="non_ecr6">All Children Up To The Age Of 18 Years. (For Re-Issue Of Passport, After They Attain The Age Of 18 Years, Documents To Prove Their Non-ECR Category Has To Be Submitted, Else ECR Stamping Will Be Done)</string>
+    <string name="non_ecr7">Birth Certificate Issued By Municipal Authority Or Any Office Authorized To Issue Birth Certificate By Registrar Of Births And Deaths Income-Tax Payers (Including Agricultural Income-Tax Payees) In Their Individual Capacity, Their Spouses And Dependent Children Below The Age 18 Years</string>
+    <string name="non_ecr8">Proof Of Assessment Of Income Tax And Actual Payment Of Income Tax For Last One Year OR</string>
+    <string name="non_ecr9">Income Tax Return Statement (With Income Tax Being Paid By The Applicant) For Last One Year That Is Stamped By Income Tax Authorities And A Copy Of The PAN Card</string>
+    <string name="non_ecr10">Note: I) Proof Of Payment Of Advance Tax Is Not Sufficient. You Need To Submit Additional Documents As Specified Above.
+                            Ii) Applicants Submitting NILL Income Tax Return Statement Are Not Eligible.</string>
+    <string name="non_ecr11">An Attested Copy Of Marriage Certificate Issued By The Marriage Registrar Needs To Be Submitted. For Verification, Spouses Name Needs To Be Endorsed In The Applicants Passport.
+                            (For Spouses, Certificate Signifying Relation) OR</string>
+    <string name="non_ecr12">Birth Certificate Issued By Municipal Authority Or Any Office Authorized To Issue Birth Certificate By Registrar Of Births And Deaths. (For Dependent Children Certificate Signifying Relation) OR</string>
+    <string name="non_ecr13"> School Leaving Certificate / Secondary School Leaving Certificate/ Certificate Of Recognized Boards From The School Last Attended By The Applicant Or Any Other Recognized Educational Institution.
+                              (For Dependent Children Certificate Signifying Relation)</string>
+    <string name="non_ecr14"> Persons Possessing Two Years Diploma From Any Institute Recognized By The National Council For Vocational Training (NCVT) Or State Council Of Vocational Training (SCVT), Or Persons Holding
+                            Three Years Diploma/Equivalent Degree From Institutions, Such As Polytechnics Recognized By The Central/State Governments Of India</string>
+    <string name="non_ecr15"> Pass Certificate Issued By The Institute</string>
+    <string name="non_ecr16"> Nurses Possessing Qualifications Recognized Under The Indian Nursing Council Act. 1947</string>
+    <string name="non_ecr17"> Nursing Certificate.</string>
+    <string name="non_ecr18"> Have you ever held/hold any Identity Certificate? *</string>
+    <string name="non_ecr19"> All Professional Degree Holders , Their Spouses And Dependent Children. Examples Of Professional Degree Holders Are Doctors Holding MBBS
+                            Degree Or Equivalent Degree In AYURVED Or HOMEOPATHY, Accredited Journalists, Engineers, Chartered Accountants, Cost Accountants, Lecturers, Teachers, Scientists, Advocates, Etc</string>
+    <string name="non_ecr20"> Certificate Of The Professional Degree Held.</string>
+    <string name="non_ecr21"> An Attested Copy Of Marriage Certificate Issued By The Marriage Registrar Needs To Be Submitted. For Verification, Spouses Name Needs To Be Endorsed In The
+                            Applicants Passport.(For Spouses, Certificate Signifying Relation)</string>
+    <string name="non_ecr22"> Birth Certificate Issued By Municipal Authority Or Any Office Authorized To Issue Birth Certificate By Registrar Of Births And Deaths (For Dependent Children Certificate Signifying Relation) OR</string>
+    <string name="non_ecr23"> School Leaving Certificate / Secondary School Leaving Certificate/ Certificate Of Recognized Boards From The School Last Attended By The Applicant Or Any Other Recognized Educational Institution (For Dependent Children Certificate Signifying Relation)</string>
+
+    <!--NON_Ecr Strings ends-->
+
+    <!--Birth_proof Strings -->
+    <string name="birth1">YOU SHOULD HAVE ANY ONE OF THE FOLLOWING DOCUMENTS AS A BIRTH PROOF FOR PASSPORT APPLICATION :</string>
+    <string name="birth2">Birth Certificate Issued By The Registrar Of Births And Deaths Or The Municipal Corporation Or Any Other Prescribed Authority,Whosoever Has Been Empowered Under The Registration Of Birth And Deaths Act, 1969 To Register The Birth Of A Child Born In India.</string>
+    <string name="birth3">Transfer/School Leaving/Matriculation Certificate Issued By The School Last Attended/Recognised Educational Board.</string>
+    <string name="birth4">Policy Bond Issued By The Public Life Insurance Corporations/Companies Having The DOB Of The Holder Of The Insurance Policy.</string>
+    <string name="birth5">Copy Of An Extract Of The Service Record Of The Applicant (Only In Respect Of Government Servants) Or The Pay Pension Order (In Respect Of Retired Government Servants), Duly Attested/Certified By The Officer/In-Charge Of The Administration Of The Concerned Ministry/Department Of The Applicant.</string>
+    <string name="birth6">Aadhaar Card/E-Aadhaar.</string>
+    <string name="birth7">Election Photo Identity Card (EPIC) Issued By The Election Commission Of India.</string>
+    <string name="birth8">PAN Card Issued By The Income Tax Department.</string>
+    <string name="birth9">Driving License Issued By The Transport Department Of Concerned State Government.</string>
+    <string name="birth10">A Declaration Given By The Head Of The Orphanage/Child Care Home On Their Official Letter Head Of The Organization Confirming The DOB Of The Applicant.</string>
+
+    <!--Birth_proof Strings ends -->
+
+    <!--address_proof Strings -->
+    <string name="adress1">YOU SHOULD HAVE ANY ONE OF THE FOLLOWING DOCUMENTS AS A PRESENT RESIDENTIAL ADDRESS PROOF FOR PASSPORT APPLICATION :</string>
+    <string name="adress2">Water Bill.</string>
+    <string name="adress3">Telephone (Landline Or Post Paid Mobile Bill).</string>
+    <string name="adress4">Electricity Bill.</string>
+    <string name="adress5">Election Commission Photo ID Card.</string>
+    <string name="adress6">Proof Of Gas Connection.</string>
+    <string name="adress7">Certificate From Employer Of Reputed Companies On Letter Head.</string>
+    <string name="adress8">Spouses Passport Copy (First And Last Page Including Family Details Mentioning Applicants Name As Spouse Of The Passport Holder), (Provided The Applicants Present Address Matches The Address Mentioned In The Spouses Passport).</string>
+    <string name="adress9">Parents Passport Copy, In Case Of Minors(First And Last Page).</string>
+    <string name="adress10">Aadhaar Card.</string>
+    <string name="adress11">Rent Agreement.</string>
+    <string name="adress12">Photo Passbook Of Running Bank Account (Scheduled Public Sector Banks, Scheduled Private Sector Indian Banks And Regional Rural Banks Only).</string>
+
+    <!--adress_proof Strings ends -->
+
+
+    <!--Faqs Question-->
+    <string name="fques_1">Q1. How long does it take to get the Passport?</string>
+    <string name="fques_2">Q2. What is the definition of minor for issue of passport?</string>
+    <string name="fques_3">Q3. I have a one-month old baby? Does the baby require a separate passport or his/her name can be endorsed in one of the parents passport?</string>
+    <string name="fques_4">Q4. We are planning to apply for passports for our kids (minors). Is it necessary that my name should be included in my wife passport?</string>
+    <string name="fques_5">Q5. Is it necessary that both parents should have passport before applying for their child  passport?</string>
+    <string name="fques_6">Q6. I am a minor who is 16 years old. Is it possible for me to obtain a full validity passport of 10 years?</string>
+    <string name="fques_7">Q7. What would be the validity of a minor,s passport?</string>
+    <string name="fques_8">Q8. I wish to apply for a passport for my child who is 12 months old. Can I apply for a 60 pages booklet?</string>
+    <string name="fques_9">Q9. If parents have passport with adverse Police Verification Report or they have a criminal background, can passport be issued to minor on an urgent basis?</string>
+    <string name="fques_10">Q10. I want to apply for my minor child,s passport. I hold a valid passport but spouse name is not endorsed. Can I apply for my child,s passport without submitting my passport copy?</string>
+    <string name="fques_11">Q11. Do I need to carry photographs of my 3 months old child while visiting the Passport Seva Kendra (PSK)/Passport Office (PO)?</string>
+    <string name="fques_12">Q12. I am a pensioner or have a senior,s card; can I have a senior,s passport?</string>
+    <string name="fques_13">Q13. What benefits do senior citizens get for issuance of passport?</string>
+    <string name="fques_14">Q14. Can students staying away from parents apply for a New Passport?</string>
+    <string name="fques_15">Q15. Do I need to provide original documents or will certified copies or extract be enough?</string>
+    <string name="fques_16">Q16. Is it mandatory to submit Birth Certificate for applicants who are born on or after 26.01.1989?</string>
+    <string name="fques_17">Q17. I am a salaried person and Income tax is deducted from salary. What are the documents I need to submit for Non-ECR status?</string>
+    <string name="fques_18">Q18. Why is Police Verification required for issuance of passport?</string>
+    <string name="fques_19">Q19. I belong to Ludhiana, Punjab and am currently studying in Delhi for past two years. I want to apply for a passport. Will the police verification be done at my permanent address also?
+                              OR I belong to Jammu and Kashmir and am currently studying in Delhi for past two years. I want to apply for my passport. Will the police verification be done at my Permanent address in J and K as well?</string>
+    <string name="fques_20">Q20. What is the mode for dispatch of passport?</string>
+    <string name="fques_21">Q21. The status on the website says that my passport has been "Dispatched/ Delivered". But I haven,t received it yet. What should I do?</string>
+    <string name="fques_22">Q22. Do I need to be personally present to collect the passport from the postman or any of my family members can collect it on my behalf?</string>
+    <string name="fques_23">Q23. My passport application is under processing and in the meanwhile my present address has changed. What is the procedure to update my address in the submitted passport application?</string>
+    <string name="fques_24">Q24. I have received someone else,s passport through speed post? Please suggest what should I do?</string>
+    <string name="fques_25">Q25. The applicant is staying at Bangalore for the last two years and permanent address is in Kerala. Can he/she endorse his/her permanent address instead of present address in the passport?</string>
+    <string name="fques_26">Q26. I have stayed at three different addresses during last one year. Will the police verification be done at all the places?</string>
+
+
+    <!--Faqs Answer-->
+    <string name="ans_1">Ans : Passport processing usually takes 4 to 6 weeks.</string>
+    <string name="ans_2">Ans : Applicants less than 18 years of age are considered as minor for issuance of passport.</string>
+    <string name="ans_3">Ans : Endorsement of child,s name in parent,s passports is not allowed anymore. As per the amended instructions , a minor should have a separate passport.</string>
+    <string name="ans_4">Ans : If either parent of a minor holds a valid passport with spouse name endorsed, passport will be issued to the minor without any police verification.
+                                Original passport of parent(s) should be presented for the verification of particulars. If parent(s) hold a valid passport, but spouse name is not endorsed, then they must get the spouse name added in their passport. For this, they have to apply for re-issue of passport and get the specified change done in personal particulars. Thus, it is necessary that spouse name should be endorsed on the parent,s passport.</string>
+    <string name="ans_5">Ans : It is not necessary that both parents should have a passport before applying for their child,s passport. The advantage of either parent holding a valid passport with spouse name endorsed is that it exempts their child from the Police Verification process.</string>
+    <string name="ans_6">Ans : Minors between 15 to 18 years of age can apply either for a 10-year validity passport or they can apply for a passport, which is valid till they attain the age of 18 years. Fee for a 10-year validity passport is higher than fee for a passport, which is valid till they attain the age of 18 years. A 10-year validity passport cannot be issued to applicants without police verification on submission of parent,s passport. If passport is required on an urgent basis, they can apply under Tatkaal scheme.</string>
+    <string name="ans_7">Ans : The validity of a minor,s passport is restricted to five years or till they attain the age of 18, whichever is earlier. But the minors aged between 15 to 18 years can apply either for a 10-year validity passport or for a passport which is valid till they attain the age of 18 years. Different fees are applicable depending upon which category they are applying for.</string>
+    <string name="ans_8">Ans : No. Only 36 pages passport booklet are issued to minors.</string>
+    <string name="ans_9">Ans : In such cases, minors can be issued passport under Tatkaal scheme subject to the approval of the RPO / Competent Authority.</string>
+    <string name="ans_10">Ans : If parent(s) of the minor holds a valid passport, then attested photocopy of passport needs to be submitted along with the application form. Spouse name should be endorsed on the parent,s passport. If parent(s) hold a valid passport, but spouse name is not endorsed, then they must get the spouse name added in their passport. For this, they have to apply for re-issue of passport and get the specified change done in personal particulars.</string>
+    <string name="ans_11">Ans : Minor applicants below the age of 4 years need to carry a passport size photograph for the processing of application at the PSK/PO. For applicants above the age of 4 years, photographs will be captured at the PSK/PO itself.</string>
+    <string name="ans_12">Ans : Separate senior,s passport is not issued to a senior citizen. They can apply for an ordinary passport with a validity of 10 years. Senior Citizens can be issued a passport on post police verification basis if they submit copy of child,s (Age greater than 18) passport, who is staying abroad (with page having parent,s name) as an additional document along with their application form.</string>
+    <string name="ans_13">Ans : Senior Citizens can be issued a passport on post police verification basis if they submit copy of child,s (Age greater than 18) passport, who is staying abroad (with page having parent,s name) as an additional document along with their application form.</string>
+    <string name="ans_14">Ans : Yes, Students studying away from home can apply for a New Passport.</string>
+    <string name="ans_15">Ans : Applicants are required to attach self -attested photocopies of all the required documents with the application form. Original documents must be produced at the counter; which will be returned after verification.</string>
+    <string name="ans_16">Ans : No, You can submit the one of the following documents: Birth Certificate issued by the Registrar of Births and Deaths or the Municipal Corporation or any other prescribed authority, whosoever has been empowered under the Registration of Birth and Deaths Act, 1969 to register the birth of a child born in India. Transfer/School leaving/Matriculation Certificate issued by the school last attended/recognised educational
+                          board having the date of birth of the applicant. PAN Card issued by the Income Tax Department having the date of birth of the applicant. Aadhaar Card/E-Aadhaar having the date of birth of the applicant Copy of an extract of the service record of the applicant (only in respect of Government servants) or the Pay Pension Order (in respect of retired Government Servants), duly attested/certified by the officer/in- charge of the Administration of the concerned Ministry/Department of the applicant,
+                          having his date of birth. Driving licence issued by the Transport Department of the concerned State Government, having the date of birth of the applicant. Election Photo Identity Card issued by the Election Commission of India containing the date of birth of the applicant. Policy Bond issued by Public Life Insurance Corporations/Companies containing the date of birth of the holder of the insurance policy.</string>
+    <string name="ans_17">Ans : Following documents have to be submitted for Non-ECR (previously ECNR) status: Proof of assessment of income tax and actual payment of income tax for the last one year; OR Income Tax return statement (with income tax being paid by the applicant) for the last one year that is stamped by income tax authorities and a copy of your PAN card.</string>
+    <string name="ans_18">Ans : Passport is a very valuable document. Thus, in order to ensure that it does not go in wrong hands, police verification is required for issuance of passport.</string>
+    <string name="ans_19">Ans : Police verification will be done at both permanent and present address.</string>
+    <string name="ans_20">Ans : The passport is dispatched by India Post through Speed Post to the present address of the applicant.</string>
+    <string name="ans_21">Ans : We request you to check the delivery status of your passport through India Post,s Speed Post Tracking Utility. Based on the displayed status, you may contact the respective speed post center or your nearest Speed Post center to confirm the current status of your consignment. In case the Speed Post authorities are unable to locate your passport consignment or they have returned your passport consignment to the sender then please contact the respective Regional Passport Office for further assistance.</string>
+    <string name="ans_22">Ans : It is advisable that the applicant himself collect the passport from the postman. In case of absence of the applicant, it is at the discretion of the postman to hand over the envelope to some family member of the applicant by checking their/applicant,s ID proof or to return the passport to the issuing Regional Passport Office.</string>
+    <string name="ans_23">Ans : As per the process passport is dispatched to the present address mentioned in the passport application form. We request you to submit an application at your respective Regional Passport Office (RPO) to update your present address. Please carry your present address proof along with a request letter while visiting the RPO. RPO may decide accordingly taking into consideration the facts placed before him.</string>
+    <string name="ans_24">Ans : Please immediately surrender the passport at your respective Regional Passport Office.</string>
+    <string name="ans_25">Ans : Only the present address will be endorsed on the passport and not the permanent address.</string>
+    <string name="ans_26">Ans : Yes. The police verification will be done at all the three addresses where the applicant has resided in the last one year.</string>
+    <string name="pdialog">Please wait...Data is submitting</string>
+    <string name="title_activity_dashboaed_drawer">Dashboaed_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <!--Refund-->
+    <string name="refund1">For the passport services that are given to you, passportsevaindia.online, will only accept refunds if the service is not provided. Passportsevaindia.online, reserves the right to determine a fair value of the product on return and the same shall be binding on both parties. The refund process will be initiated once we confirmation of the services not provided. In case of refund request accepted, amount will be refunded in the same mode you have paid.</string>
+    <string name="refund2">Refund request can be send at complaint@passportsevaindia.online Refund request can be made within 5 days of online application made with valid reason. Standard deduction(30%) should be applied if you dont have valid reason.</string>
+    <string name="refund3">You cannot cancel the application once processed from our side. No refund will be provided once the application is proceed or done.</string>
+    <string name="refund4">Passport applied, PSK Will be delivered within 20 to 30 days at the address provided in the application form.</string>
+    <string name="refund5">If you have any query about application process, you can write us mail at complaint@passportsevaindia.online, In case we need any additional clarification about your passport application, our team will reach you by email or call.</string>
+    <string name="refund6">Passportsevaindia.online shall not be considered in breach of its satisfaction guarantee policy or default under any terms of service, and shall not be liable to the client for any cessation, interruption, or delay in the performance of its obligations by reason of earthquake, flood, fire, storm, lightning, drought, landslide, hurricane, cyclone, typhoon, tornado, natural disaster, act of god or the public enemy, epidemic,
+                            famine or plague, action of a court or public authority, change in law, explosion, war, terrorism, armed conflict, labor strike, lockout, boycott or similar event beyond our reasonable control, whether foreseen or unforeseen (each a “Force majeure event”).</string>
+
+    <!--Privacy-->
+    <string name="privacy1">Thank you very much for visiting our website and your interest shown in our passportsevaindia.online, an Online Passport Application Private Consultancy Service Provider.</string>
+    <string name="privacy2">We highly value your trust and will strive to protect the security and privacy of any personal information you provide us with.</string>
+    <string name="privacy3">The privacy and security of your personal information is very important to us. We do not share your personal information in ways not disclosed in our privacy statement or without your consent.</string>
+    <string name="privacy4">This document outlines the type of personal data we receive and collect when you use our website, as well as some of the precautions we take to safeguard the information. passportsevaindia.online aspires to design and practice all business processes according to the data regulations of respective country</string>
+    <string name="privacy5">If you have any questions regarding the data privacy statement or privacy concerns, you may contact us through our website.</string>
+    <string name="privacy6">We collect personal information, when you choose to provide it voluntarily. Usually this occurs when a business relationship is established in the context of a Passport Application request and to reserve the appointment for Passport Application in India</string>
+    <string name="privacy7">You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. You can also delete stored cookies in your browser setting. If you refuse the use of cookies this may prevent you from taking full advantage of the website.</string>
+    <string name="privacy8">A cookie is a small file which asks permission to be placed on your computer’s hard drive. Once you agree, the file is added and the cookie helps analyze web traffic or indicates when you visit a particular site. Cookies allow web applications to respond to you as an individual. The web application can tailor its operations to your needs, likes and dislikes by gathering and remembering information about your preferences. Cookies do not damage your computer, neither do cookies contain viruses.</string>
+
+    <!--Terms and condition-->
+    <string name="term1">It is informed to the user that the said website is only for providing consultancy services to help prospective customer apply for their passport, not associated with Ministry of External Affairs (MEA) and they shall provide their personal data in acceptance of the said fact and their relationship with the website shall be governed by the terms and conditions, privacy policy, refund policy and disclaimer displayed on the website.</string>
+    <string name="term2_1">You may visit our website without disclosing who you are. Information about usage patterns such as the time and date of the usage, the amount of data sent, browser, referral domain, the geographic location of the user and the name of the files sent are collected for the purpose of statistical evaluation. We will use this information for the purpose of evaluating your use of the website, compiling reports on website activity and providing other services relating to website activity and internet usage. This data does not enable us to identify you, and we use it in an anonymous way. We do not collect or store the IP addresses.</string>
+    <string name="term2_2">We collect personal information, when you choose to provide it voluntarily. Usually this occurs when a business relationship is established in the context of a Passport Application request and to reserve the appointment for Passport Application in India.</string>
+    <string name="term2_3">Personal information encompasses personal details, which are entered, when you place a request such as your name, email address, mailing address and phone number etc. Additional information is required for some activities such as New Passport Service, Tatkaal Passport Service, Reissue Passport Service to process the Application. passportsevaindia.online management is committed to ensure that your information is secure. We have put in place suitable physical, electronic and managerial procedures in order to prevent unauthorized access or disclosure to safeguard and secure the information we collect online. This personal information is transmitted only in a secure and encrypted manner.</string>
+    <string name="term3_1">In case you choose to use services of passportsevaindia.online, we collect data that is necessary for the service you requested. If we ask you for more information, it will be on voluntary basis. We use this information to process and fulfill your service request, i.e. a New Passport Application, Tatkaal Passport Application, Reissue Passport Application etc.</string>
+    <string name="term3_2">The deletion of personal data on our website happens, if you revoke your agreement to store it or if it is no longer necessary for us to store to it to fulfill your service request or if the storage is not permitted by law.</string>
+    <string name="term3_3">We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law.</string>
+    <string name="term4_1">We use and process your data in case you choose to use services of passportsevaindia.online, data will be transmitted in order to fulfill your service request, i.e. data with the details of the New Passport Application, Tatkaal Passport Application, Reissue Passport Application etc. will be transmitted to the requested service departments.</string>
+    <string name="term4_2">We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law.</string>
+    <string name="term5_1">A cookie is a small file which asks permission to be placed on your computer’s hard drive. Once you agree, the file is added and the cookie helps analyze web traffic or indicates when you visit a particular site. Cookies allow web applications to respond to you as an individual. The web application can tailor its operations to your needs, likes and dislikes by gathering and remembering information about your preferences. Cookies do not damage your computer, neither do cookies contain viruses.</string>
+    <string name="term5_2">You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. You can also delete stored cookies in your browser setting. If you refuse the use of cookies this may prevent you from taking full advantage of the website.</string>
+    <string name="term6_1">If you choose to provide personal data, such as your name, email address, mailing address and phone number also additional information which is required during the New Passport Application, Tatkaal Passport Application, Reissue Passport Application etc., this information will be transferred in an encrypted manner. passportsevaindia.online website and servers have security measures in place to help protect your personal identifiable information against loss, misuse, and alteration while under our control.</string>
+    <string name="term6_2">passportsevaindia.online management recognizes the importance of information security and is constantly reviewing and enhancing our technical, physical, and logical security rules and procedures.</string>
+    <string name="term7">passportsevaindia.online management does not seek to obtain nor does it wish to receive personal identifiable information directly from minors; however, we cannot always determine the age of persons who access and use our websites. passportsevaindia.online will not make use of the data if a minor (as defined by applicable law) provides us with his/her data without parental or guardian consent.</string>
+    <string name="term8">The Portal has been designed for lodging complaints by user. They can lodge Complaint here indicating issues or problems faced by them while working on our website instead of sending emails to the support. It has been designed in a manner that the user can explain issues faced and upload screenshots of pages where they faced the problem, for quick redressal of grievances</string>
+    <string name="term9_1">a. Enable the user to lodge his complaint and raise tickets himself.</string>
+    <string name="term9_2">b. To provide all required information and reducing to and from communication between helpdesk and the user, helping to reach a faster resolution.</string>
+    <string name="term9_3">c. Enable the user to check the progress of resolution of his complaint by using the ticket number (acknowledgement number generated after a complaint is lodged).</string>
+    <string name="term9_4">d. Check the resolution comments in case the complaint/ticket is closed.</string>
+    <string name="term10_1">By accessing and/or using the passportsevaindia.online website, you accept and agree to be bound by this policy. All content available on the passportsevaindia.online website is subject to this policy. If you do not agreed to this policy, you may not use, access or submit information to the website..</string>
+    <string name="term10_2">Get in touch for any clarifications</string>
+    <string name="term10_3">If you have any questions or concerns about this policy, please get in touch with us at enquiry@passportsevaindia.online</string>
+
+
+    <!--Disclaimer-->
+    <string name="disclaim">It is applicable to this Application. By using or accessing this website you agree with the terms and conditions in this disclaimer. We do not accept any responsibility for the content, the availability or the quality of offers made on external websites. This is just a website that assists on Financial, Travel and Visa and E-gov Services. This is not a Government Website. We are a Private Company managing this website and providing services and assistance for Business Benefits. Although the greatest possible care has been exercised to ensure the correctness and completeness of the information provided on this website, we do not accept any liability for it.</string>
+
+    <string name="identity1">Pan Card
+    </string>
+    <string name="identity2">Aadhar Card</string>
+    <string name="identity3">
+    Driving Licence
+     </string>
+    <string name="identity4">
+    Voter ID </string>
+
+
+    <string name="tat">Aadhaar Card</string>
+    <string name="tat2">Voter ID</string>
+    <string name="tat3">  Employee ID Card Issued by State/Central Govt. or Public Ltd. Company</string>
+    <string name="tat4">SC/ST/OBC Certificate</string>
+    <string name="tat5">Arms License</string>
+    <string name="tat6">Pension Book / Pension Order</string>
+    <string name="tat7">Self-Passport</string>
+    <string name="tat8">PAN Card</string>
+    <string name="tat9">Bank/Kisan/Post Office Passbook</string>
+    <string name="tat10">Student ID Card issued by Govt. Recognized Institutions</string>
+    <string name="tat11">Driving License</string>
+    <string name="tat12">Birth Certificate</string>
+    <string name="tat13">Ration Card</string>
+    <string name="back"><![CDATA[<<  Back]]></string>
+
+
+</resources>

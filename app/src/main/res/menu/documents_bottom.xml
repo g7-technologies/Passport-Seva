@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/birth_proof"
+        android:enabled="true"
+        android:title="Birth"/>
+    <item
+        android:id="@+id/adress_proof"
+        android:enabled="true"
+        android:title="Address"/>
+    <item
+        android:id="@+id/non_ecr"
+        android:enabled="true"
+        android:title="Non_ECR"/>
+
+    <item
+        android:id="@+id/non_ecr1"
+        android:enabled="true"
+        android:title="Identity"/>
+
+    <item
+        android:id="@+id/non_ecr2"
+        android:enabled="true"
+        android:title="Tatkaal"/>
+
+</menu>
+

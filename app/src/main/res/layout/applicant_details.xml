@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Applicant_details"
+    android:padding="10dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_above="@+id/btn_L"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/linears2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/colorLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Applicants's name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+
+        </LinearLayout>
+
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/s2_ed1"
+            android:padding="10dp"                    android:layout_margin="5dp"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your first name"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/colorLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Applicants's Last name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/s2_ed2"                    android:layout_margin="5dp"
+            android:padding="10dp"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your last name"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/colorLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Address"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/s2_ed3"                    android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your email address"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:background="@drawable/edittext_shape"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorLabel"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth(DD/MM/YY)"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+
+        </LinearLayout>
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/s2_ed4"
+            android:padding="10dp"
+            android:clickable="false"
+            android:editable="false"                    android:layout_margin="5dp"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/colorLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+
+        </LinearLayout>
+        <EditText
+            android:inputType="number"
+            android:digits="0123456789"
+            android:maxLines="1"
+            android:id="@+id/s2_ed5"                    android:layout_margin="5dp"
+            android:padding="10dp" android:maxLength="10"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="10 Digits number only"/>
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorLabel"
+            android:text="Landline number"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:inputType="number"
+            android:digits="0123456789"                    android:layout_margin="5dp"
+            android:maxLines="1"
+            android:id="@+id/s2_ed6"
+            android:padding="10dp"
+            android:maxLength="10"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/colorLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textColor="@color/colorRed"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/s2_error_spinner1"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option required"
+            android:textColor="@color/colorRed"
+            android:textSize="15sp"/>
+        <Spinner
+            android:id="@+id/s2_dp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/gender"                    android:layout_margin="5dp"
+            android:prompt="@string/Applying_for"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorLabel"
+                android:layout_height="wrap_content"
+                android:text="Marital Status"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/s2_error_spinner2"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option required"
+            android:textColor="@color/colorRed"
+            android:textSize="15sp"/>
+        <Spinner
+            android:id="@+id/s2_dp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"                    android:layout_margin="5dp"
+            android:entries="@array/marital_status"
+            android:prompt="@string/Applying_for"
+            android:padding="10dp" />
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLabel"
+                android:text="Employment Type"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+
+        </LinearLayout>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/s2_error_spinner3"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option required"
+            android:textColor="@color/colorRed"
+            android:textSize="15sp"/>
+        <Spinner
+            android:id="@+id/s2_dp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"                    android:layout_margin="5dp"
+            android:entries="@array/employment"
+            android:prompt="@string/Applying_for"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLabel"
+                android:text="Education Qualification"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+
+        </LinearLayout>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/s2_error_spinner4"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option required"
+            android:textColor="@color/colorRed"
+            android:textSize="15sp"/>
+        <Spinner
+            android:id="@+id/s2_dp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/education"                    android:layout_margin="5dp"
+            android:prompt="@string/Applying_for"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/colorLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Are you known by any other names(aliases)?"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/s2_1r"
+            android:layout_width="match_parent"                    android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/s2_r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:padding="10dp"
+                />
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/s2_r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:padding="10dp"
+                />
+        </RadioGroup>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/colorLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Have you ever changed your name?"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/s2_2r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"                    android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/s2_r3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:padding="10dp"
+                />
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/s2_r4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:padding="10dp"
+                />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorLabel"
+                android:layout_height="wrap_content"
+                android:text="Is your Place of Birth out of India?"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/s2_3r"
+            android:layout_width="match_parent"                    android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/s2_r5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:padding="10dp"
+                />
+            <RadioButton
+                android:id="@+id/s2_r6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:padding="10dp"
+                />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLabel"
+                android:text="Are you eligible for Non-ECR category *?"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/s2_4r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"                    android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/s2_r7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:padding="10dp"
+                />
+            <RadioButton
+                android:id="@+id/s2_r8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:padding="10dp"
+                />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorLabel"
+                android:layout_height="wrap_content"
+                android:text="Is either of your parent (in case of minor)/ spouse, a government servant? *"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/s2_5r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"                    android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/s2_r9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:padding="10dp"
+                />
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/s2_r10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:padding="10dp"
+                />
+        </RadioGroup>
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorLabel"
+                android:layout_height="wrap_content"
+                android:text="Citizenship of India by"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/s2_error_spinner5"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option required"
+            android:textColor="@color/colorRed"
+            android:textSize="15sp"/>
+
+        <Spinner
+            android:id="@+id/s2_dp5"                    android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/citizenship"
+            android:prompt="@string/Applying_for"
+            android:padding="10dp" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/colorLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visible Distinguishing Mark"
+            android:textSize="15sp"
+            />
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/s2_ed7"
+            android:padding="10dp"                    android:layout_margin="5dp"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""/>
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/colorLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voter ID(optional)"
+            android:textSize="15sp"
+            />
+        <EditText
+            android:inputType="number"
+            android:digits="0123456789"
+            android:maxLines="1"
+            android:id="@+id/s2_ed8"                    android:layout_margin="5dp"
+            android:padding="10dp"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""/>
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/colorLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAN(optinal)"
+            android:textSize="15sp"
+            />
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/s2_ed9"
+            android:padding="10dp"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"                    android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:hint=""/>
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorLabel"
+                android:layout_height="wrap_content"
+                android:text="Aadhar Number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/colorRed"/>
+        </LinearLayout>
+
+        <EditText
+            android:inputType="number"
+            android:digits="0123456789"                    android:layout_margin="5dp"
+            android:maxLines="1"
+            android:maxLength="12"
+            android:id="@+id/s2_ed10"
+            android:padding="10dp"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="xxxx xxxx xxxx"/>
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorLabel"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:textSize="15sp"
+            />
+        <RadioGroup
+            android:id="@+id/s2_6r"
+            android:layout_width="match_parent"                    android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/s2_r11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes, I agree"
+                android:padding="10dp"
+                />
+            <RadioButton
+                android:id="@+id/s2_r12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                />
+        </RadioGroup>
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:id="@+id/btn_L"
+        android:weightSum="2"
+        android:orientation="horizontal">
+            <Button
+                android:id="@+id/back2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="@string/back"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:background="@drawable/custom_button"/>
+            <Button
+                android:id="@+id/next2"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:layout_margin="2dp"
+                android:text="Next  >>"
+                android:background="@drawable/custom_button"/>
+    </LinearLayout>
+</RelativeLayout>
